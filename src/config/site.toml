@@ -1,9 +1,9 @@
 [config.site]
-title = "navfolio"
+title = "Ume"
 description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "navfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-url = "https://astro.navfolio.site"
+pageTitle = "Ume | A personal navigation"
+pageDescription = "A AI-native personal publication space for notes, links, and writing."
+url = "https://ume.moe"
 repository = "https://github.com/dodolalorc/astro-navfolio"
 footerNote = "Released as an open-source starter."
 
@@ -12,7 +12,7 @@ footerNote = "Released as an open-source starter."
 # green-soft, green-vivid, rose-soft, pink-soft, purple-soft, blue-soft, orange-soft, brown-soft
 palette = "green-soft"
 # 原生 UI 语言。可用值：en、zh-CN、zh-TW。未知值会回退到 en。
-lang = "en"
+lang = "zh-CN"
 
 [config.fonts]
 # 英文与代码感 UI 字体
@@ -118,50 +118,50 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
+name = "Ume"
+handle = "@Ume"
+role = "A Cat Banker"
 email = "hello@navfolio.site"
 website = "https://astro.navfolio.site/"
 github = "https://github.com/dodolalorc/astro-navfolio"
 avatar = "/images/avatar.webp"
 
 [[config.topNav.links]]
-label = "Home"
+label = "首页"
 href = "/"
 
 [[config.topNav.links]]
-label = "Blog"
+label = "博客"
 href = "/blog"
 
 [[config.topNav.links]]
-label = "Projects"
+label = "项目"
 module = "projects"
 
-[[config.topNav.links]]
-label = "Vibe"
-module = "vibe"
+# [[config.topNav.links]]
+# label = "Vibe"
+# module = "vibe"
+
+# [[config.topNav.links]]
+# label = "Media"
+# module = "media"
 
 [[config.topNav.links]]
-label = "Media"
-module = "media"
-
-[[config.topNav.links]]
-label = "About"
+label = "关于"
 href = "/about"
 
 [config.home]
 
 [config.home.quote]
 text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
+  "🧭导航,",
+  "📝记录,",
+  "🔨一站式工具",
 ]
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "here is Ume"
+name = "UmeNavfolio"
 body = [
   "The name combines \"Navigation\" and \"Portfolio\".",
   "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
@@ -181,9 +181,9 @@ dateArchiveBaseHref = ""
 
 [[config.home.navigation]]
 icon = "compass"
-title = "Portfolio"
+title = "HoshinoUme"
 subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
+href = "https://ume.moe/"
 
 [[config.home.navigation]]
 icon = "pen"
@@ -195,24 +195,24 @@ href = "/blog"
 icon = "briefcase"
 title = "Resume"
 subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+href = "/about"
 
-[[config.home.navigation]]
-icon = "github"
-title = "Open Source"
-subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+# [[config.home.navigation]]
+# icon = "github"
+# title = "Open Source"
+# subtitle = "Code, experiments, and tools"
+# href = "https://github.com/dodolalorc/astro-navfolio"
 
 [[config.home.links]]
 label = "GitHub"
 icon = "github"
-tooltip = "https://github.com/dodolalorc/astro-navfolio"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "LinkedIn"
 icon = "linkedin"
-tooltip = "https://www.linkedin.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
@@ -230,43 +230,43 @@ copy = false
 [[config.home.links]]
 label = "Email"
 icon = "mail"
-tooltip = "hello@navfolio.site"
+tooltip = "i@ume.moe"
 copy = true
 
 [[config.home.links]]
 label = "QQ"
 icon = "qq"
-tooltip = "123456789"
+tooltip = ""
 copy = true
 
 [[config.home.links]]
 label = "WeChat"
 icon = "wechat"
-tooltip = "navfolio"
+tooltip = ""
 copy = true
 
 [[config.home.links]]
 label = "Weibo"
 icon = "weibo"
-tooltip = "https://weibo.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "Xiaohongshu"
 icon = "xiaohongshu"
-tooltip = "https://www.xiaohongshu.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "Zhihu"
 icon = "zhihu"
-tooltip = "https://www.zhihu.com/"
+tooltip = ""
 copy = false
 
 [[config.home.links]]
 label = "Bilibili"
 icon = "bilibili"
-tooltip = "https://www.bilibili.com/"
+tooltip = ""
 copy = false
 
 [[config.home.doing]]
